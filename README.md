@@ -1,91 +1,89 @@
-# CareerInsight AI
+<div align="center">
 
-AI-powered Student Placement Prediction & Career Analytics Platform.
+# 🚀 CareerInsight AI
 
-CareerInsight AI is a machine learning and analytics platform designed to help students understand their placement readiness, suitable career roles, salary trends, and skill gaps.
+### AI-Powered Student Placement Prediction & Career Analytics Platform
 
-## 🚀 Features
+<p>
+  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+  <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
+  <img src="https://img.shields.io/badge/Power%20BI-Analytics-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+  <img src="https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas&logoColor=white">
+</p>
 
-- Student placement probability prediction
-- Machine learning based placement analysis
-- Career role matching
-- Skill gap analysis
-- Personalized learning recommendations
-- AI job salary analytics
-- Interactive Streamlit dashboard
-- Power BI analytics dashboard
-- Student profile management
-- Interactive visualizations
+<p>
+  <img src="https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/rohithzacharias/CareerInsight-AI?style=for-the-badge">
+  <img src="https://img.shields.io/github/last-commit/rohithzacharias/CareerInsight-AI?style=for-the-badge">
+</p>
 
-## 🧠 Machine Learning
+**CareerInsight AI** is an interactive machine learning and analytics platform designed to help students understand their placement probability, career opportunities, salary trends, and skill gaps.
 
-The placement prediction component uses machine learning models trained on the Indian Student Placement Dataset 2025.
+</div>
 
-The project includes:
+---
 
-- Data inspection
-- Data cleaning
-- Exploratory Data Analysis
-- Feature engineering
-- Model training
-- Model evaluation
-- Placement probability prediction
+## 🌟 Project Highlights
 
-## 📊 Analytics
+| 🧠 Placement AI | 🎯 Career Matching | 💰 Salary Analytics |
+|---|---|---|
+| Predict student placement probability | Identify suitable career roles | Explore job salary trends |
 
-The project combines multiple datasets for different analytical purposes:
+| 📚 Skill Gap Analysis | 📊 Power BI | 🖥️ Streamlit |
+|---|---|---|
+| Find skills that need improvement | Interactive business analytics | Complete interactive web application |
 
-### Student Placement Dataset
+---
 
-Used for:
+# 🎯 What Problem Does CareerInsight AI Solve?
 
-- Placement prediction
-- Student performance analysis
-- Placement-related EDA
-- Feature engineering
+Students often know their academic scores but may not know:
 
-### AI Job Salaries Dataset
+- ❓ What is my current placement probability?
+- ❓ Which career role suits my capabilities?
+- ❓ What skills should I learn next?
+- ❓ How strong is my overall profile?
+- ❓ What salary range can I expect for different roles?
+- ❓ How can I improve my placement readiness?
 
-Used for:
+**CareerInsight AI brings these insights together in one platform.**
 
-- Salary analysis
-- Job role analysis
-- Experience-level analysis
-- Company-type analysis
-- Career market insights
+---
 
-### Student Skill Gap Dataset
+# 🧠 Machine Learning
 
-Used for:
+The placement prediction component uses the **Indian Student Placement Dataset 2025**.
 
-- Skill analysis
-- Career readiness
-- Skill gap identification
-- Learning recommendations
+### Input Features
 
-## 🛠️ Technologies Used
+The model considers student attributes including:
 
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Streamlit
-- Plotly
-- Jupyter Notebook
-- Power BI
-- SQLite
-- Git
-- GitHub
+- Gender
+- Age
+- Degree
+- Branch
+- CGPA
+- Backlogs
+- Internships
+- Certifications
+- Coding Skills
+- Communication Skills
+- Aptitude Score
+- Projects
 
-## 📁 Project Structure
+### Machine Learning Pipeline
 
-```text
-CareerInsight-AI/
-│
-├── data/
-├── models/
-├── notebooks/
-├── reports/
-├── src/
-├── streamlit/
-└── dashboard/
+```mermaid
+flowchart LR
+
+A["📂 Raw Placement Dataset"] --> B["🔍 Data Inspection"]
+B --> C["🧹 Data Cleaning"]
+C --> D["📊 Exploratory Data Analysis"]
+D --> E["⚙️ Feature Engineering"]
+E --> F["📁 Processed Dataset"]
+F --> G["🤖 Model Training"]
+G --> H["📈 Model Evaluation"]
+H --> I["💾 Trained ML Model"]
+I --> J["🖥️ Streamlit Application"]
+J --> K["🎯 Placement Probability"]
