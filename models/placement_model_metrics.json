@@ -1,0 +1,30 @@
+{
+  "accuracy": 1.0,
+  "f1": 1.0,
+  "roc_auc": 1.0,
+  "brier_score": 0.0001,
+  "feature_columns": [
+    "gender",
+    "age",
+    "degree",
+    "branch",
+    "cgpa",
+    "backlogs",
+    "internships",
+    "certifications",
+    "coding_skills",
+    "communication_skills",
+    "aptitude_score",
+    "projects",
+    "overall_skill_score",
+    "academic_performance_index",
+    "profile_strength"
+  ],
+  "training_dataset": "data\\processed\\student_placement_feature_engineered.csv",
+  "engineered_features": [
+    "overall_skill_score",
+    "academic_performance_index",
+    "profile_strength"
+  ],
+  "note": "Metrics use a held-out 20% test set. Probabilities are estimates, not guarantees."
+}
